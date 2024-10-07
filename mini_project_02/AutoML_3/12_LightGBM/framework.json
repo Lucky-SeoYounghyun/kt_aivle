@@ -1,0 +1,510 @@
+{
+    "uid": "0ceb882a-9ac2-4641-a97c-3f14ad960d6f",
+    "name": "12_LightGBM",
+    "preprocessing": [
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "\uac74\ubb3c\ud615\ud0dc": {
+                            "\uacc4\ub2e8\uc2dd": 0,
+                            "\ubcf5\ub3c4\uc2dd": 1,
+                            "\ud63c\ud569\uc2dd": 2
+                        },
+                        "\ub09c\ubc29\ubc29\uc2dd": {
+                            "\uac1c\ubcc4": 0,
+                            "\uc911\uc559": 1,
+                            "\uc9c0\uc5ed": 2
+                        },
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": {
+                            "0": 0,
+                            "1": 1
+                        }
+                    },
+                    "columns": [
+                        "\uac74\ubb3c\ud615\ud0dc",
+                        "\ub09c\ubc29\ubc29\uc2dd",
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80"
+                    ]
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    376.1633932354041
+                ],
+                "mean": [
+                    553.2552083333334
+                ],
+                "var": [
+                    141498.89841037325
+                ],
+                "n_samples_seen": 192,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "\uac74\ubb3c\ud615\ud0dc": [
+                        "categorical_to_int"
+                    ],
+                    "\ub09c\ubc29\ubc29\uc2dd": [
+                        "categorical_to_int"
+                    ],
+                    "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": [
+                        "categorical_to_int"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "\uac74\ubb3c\ud615\ud0dc": {
+                            "\uacc4\ub2e8\uc2dd": 0,
+                            "\ubcf5\ub3c4\uc2dd": 1,
+                            "\ud63c\ud569\uc2dd": 2
+                        },
+                        "\ub09c\ubc29\ubc29\uc2dd": {
+                            "\uac1c\ubcc4": 0,
+                            "\uc911\uc559": 1,
+                            "\uc9c0\uc5ed": 2
+                        },
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": {
+                            "0": 0,
+                            "1": 1
+                        }
+                    },
+                    "columns": [
+                        "\uac74\ubb3c\ud615\ud0dc",
+                        "\ub09c\ubc29\ubc29\uc2dd",
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80"
+                    ]
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    375.0136161899295
+                ],
+                "mean": [
+                    571.9896373056995
+                ],
+                "var": [
+                    140635.21232784775
+                ],
+                "n_samples_seen": 193,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "\uac74\ubb3c\ud615\ud0dc": [
+                        "categorical_to_int"
+                    ],
+                    "\ub09c\ubc29\ubc29\uc2dd": [
+                        "categorical_to_int"
+                    ],
+                    "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": [
+                        "categorical_to_int"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "\uac74\ubb3c\ud615\ud0dc": {
+                            "\uacc4\ub2e8\uc2dd": 0,
+                            "\ubcf5\ub3c4\uc2dd": 1,
+                            "\ud63c\ud569\uc2dd": 2
+                        },
+                        "\ub09c\ubc29\ubc29\uc2dd": {
+                            "\uac1c\ubcc4": 0,
+                            "\uc911\uc559": 1,
+                            "\uc9c0\uc5ed": 2
+                        },
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": {
+                            "0": 0,
+                            "1": 1
+                        }
+                    },
+                    "columns": [
+                        "\uac74\ubb3c\ud615\ud0dc",
+                        "\ub09c\ubc29\ubc29\uc2dd",
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80"
+                    ]
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    375.6595083358327
+                ],
+                "mean": [
+                    558.3316062176166
+                ],
+                "var": [
+                    141120.06620311955
+                ],
+                "n_samples_seen": 193,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "\uac74\ubb3c\ud615\ud0dc": [
+                        "categorical_to_int"
+                    ],
+                    "\ub09c\ubc29\ubc29\uc2dd": [
+                        "categorical_to_int"
+                    ],
+                    "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": [
+                        "categorical_to_int"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "\uac74\ubb3c\ud615\ud0dc": {
+                            "\uacc4\ub2e8\uc2dd": 0,
+                            "\ubcf5\ub3c4\uc2dd": 1,
+                            "\ud63c\ud569\uc2dd": 2
+                        },
+                        "\ub09c\ubc29\ubc29\uc2dd": {
+                            "\uac1c\ubcc4": 0,
+                            "\uc911\uc559": 1,
+                            "\uc9c0\uc5ed": 2
+                        },
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": {
+                            "0": 0,
+                            "1": 1
+                        }
+                    },
+                    "columns": [
+                        "\uac74\ubb3c\ud615\ud0dc",
+                        "\ub09c\ubc29\ubc29\uc2dd",
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80"
+                    ]
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    379.4851319815365
+                ],
+                "mean": [
+                    571.0932642487047
+                ],
+                "var": [
+                    144008.96539504416
+                ],
+                "n_samples_seen": 193,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "\uac74\ubb3c\ud615\ud0dc": [
+                        "categorical_to_int"
+                    ],
+                    "\ub09c\ubc29\ubc29\uc2dd": [
+                        "categorical_to_int"
+                    ],
+                    "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": [
+                        "categorical_to_int"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "\uac74\ubb3c\ud615\ud0dc": {
+                            "\uacc4\ub2e8\uc2dd": 0,
+                            "\ubcf5\ub3c4\uc2dd": 1,
+                            "\ud63c\ud569\uc2dd": 2
+                        },
+                        "\ub09c\ubc29\ubc29\uc2dd": {
+                            "\uac1c\ubcc4": 0,
+                            "\uc911\uc559": 1,
+                            "\uc9c0\uc5ed": 2
+                        },
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": {
+                            "0": 0,
+                            "1": 1
+                        }
+                    },
+                    "columns": [
+                        "\uac74\ubb3c\ud615\ud0dc",
+                        "\ub09c\ubc29\ubc29\uc2dd",
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80"
+                    ]
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    382.7783569958537
+                ],
+                "mean": [
+                    572.860103626943
+                ],
+                "var": [
+                    146519.2705844452
+                ],
+                "n_samples_seen": 193,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "\uac74\ubb3c\ud615\ud0dc": [
+                        "categorical_to_int"
+                    ],
+                    "\ub09c\ubc29\ubc29\uc2dd": [
+                        "categorical_to_int"
+                    ],
+                    "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": [
+                        "categorical_to_int"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "4.5.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "b9d694f2-b093-42c4-bba3-54db4c0c0936",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "objective": "regression",
+                "num_leaves": 63,
+                "learning_rate": 0.2,
+                "feature_fraction": 0.5,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 10,
+                "metric": "rmse",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "4.5.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "03de1868-293c-4898-89bf-b4829152a253",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "objective": "regression",
+                "num_leaves": 63,
+                "learning_rate": 0.2,
+                "feature_fraction": 0.5,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 10,
+                "metric": "rmse",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "4.5.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "e84b9352-cff2-4815-8186-40375cda746e",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "objective": "regression",
+                "num_leaves": 63,
+                "learning_rate": 0.2,
+                "feature_fraction": 0.5,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 10,
+                "metric": "rmse",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "4.5.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "8c82150d-c025-4829-8c1b-142161270b11",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "objective": "regression",
+                "num_leaves": 63,
+                "learning_rate": 0.2,
+                "feature_fraction": 0.5,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 10,
+                "metric": "rmse",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "4.5.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "ac800353-87a6-4b28-8a0a-f503b0966c4b",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "objective": "regression",
+                "num_leaves": 63,
+                "learning_rate": 0.2,
+                "feature_fraction": 0.5,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 10,
+                "metric": "rmse",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "\uac74\ubb3c\ud615\ud0dc": [
+                    "categorical_to_int"
+                ],
+                "\ub09c\ubc29\ubc29\uc2dd": [
+                    "categorical_to_int"
+                ],
+                "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": [
+                    "categorical_to_int"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "X_path": "AutoML_3\\X.data",
+            "y_path": "AutoML_3\\y.data",
+            "results_path": "AutoML_3"
+        },
+        "learner": {
+            "model_type": "LightGBM",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1236,
+            "objective": "regression",
+            "num_leaves": 63,
+            "learning_rate": 0.2,
+            "feature_fraction": 0.5,
+            "bagging_fraction": 1.0,
+            "min_data_in_leaf": 10,
+            "metric": "rmse",
+            "custom_eval_metric_name": null,
+            "explain_level": 1
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 1,
+        "name": "12_LightGBM",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "12_LightGBM\\learner_fold_0.lightgbm",
+        "12_LightGBM\\learner_fold_1.lightgbm",
+        "12_LightGBM\\learner_fold_2.lightgbm",
+        "12_LightGBM\\learner_fold_3.lightgbm",
+        "12_LightGBM\\learner_fold_4.lightgbm"
+    ],
+    "predictions_fname": "12_LightGBM\\predictions_out_of_folds.csv",
+    "metric_name": "rmse",
+    "final_loss": "183.66686297768027",
+    "train_time": 2.600458860397339,
+    "is_stacked": false,
+    "joblib_version": "1.4.2",
+    "single_prediction_time": 0.05700063705444336
+}

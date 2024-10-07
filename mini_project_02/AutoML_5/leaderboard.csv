@@ -1,0 +1,58 @@
+name,model_type,metric_type,metric_value,train_time,single_prediction_time
+1_Linear,Linear,rmse,217.82751702671783,17.72,0.049
+2_Default_LightGBM,LightGBM,rmse,177.8342799251339,9.71,0.058
+3_Default_Xgboost,Xgboost,rmse,193.66068422301748,5.8,0.059
+4_Default_CatBoost,CatBoost,rmse,173.539744664209,14.45,0.024
+5_Default_NeuralNetwork,Neural Network,rmse,201.40855174238416,3.91,0.055
+6_Default_RandomForest,Random Forest,rmse,187.34664532701194,10.89,0.1185
+11_LightGBM,LightGBM,rmse,199.23995673990987,10.76,0.057
+7_Xgboost,Xgboost,rmse,189.91402097840052,4.3,0.054
+15_CatBoost,CatBoost,rmse,181.09249690071522,28.07,0.023
+19_RandomForest,Random Forest,rmse,175.6250902600561,12.78,0.1233
+23_NeuralNetwork,Neural Network,rmse,200.88534370089104,3.95,0.049
+12_LightGBM,LightGBM,rmse,183.66686297768027,9.8,0.057
+8_Xgboost,Xgboost,rmse,197.21323937276676,4.52,0.0805
+16_CatBoost,CatBoost,rmse,180.61031545375442,23.49,0.025
+20_RandomForest,Random Forest,rmse,218.1796878366952,12.32,0.117
+24_NeuralNetwork,Neural Network,rmse,201.16912329340488,4.09,0.048
+13_LightGBM,LightGBM,rmse,174.93193665562177,9.93,0.061
+9_Xgboost,Xgboost,rmse,175.33118440596428,4.8,0.075
+17_CatBoost,CatBoost,rmse,178.57708691883477,16.9,0.023
+21_RandomForest,Random Forest,rmse,196.91596466900728,10.92,0.12
+25_NeuralNetwork,Neural Network,rmse,229.1619072299035,4.29,0.051
+14_LightGBM,LightGBM,rmse,180.54904859238235,10.0,0.058
+10_Xgboost,Xgboost,rmse,228.5632547524077,4.75,0.053
+18_CatBoost,CatBoost,rmse,192.64986475383049,19.35,0.023
+22_RandomForest,Random Forest,rmse,213.70219374167797,11.25,0.1178
+26_NeuralNetwork,Neural Network,rmse,194.69884060922388,4.29,0.049
+4_Default_CatBoost_GoldenFeatures,CatBoost,rmse,173.0645833880373,14.74,0.041
+13_LightGBM_GoldenFeatures,LightGBM,rmse,169.49659205191136,10.9,0.098
+9_Xgboost_GoldenFeatures,Xgboost,rmse,173.0353313619454,5.02,0.112
+13_LightGBM_GoldenFeatures_RandomFeature,LightGBM,rmse,165.17448134586218,5.36,0.102
+13_LightGBM_GoldenFeatures_SelectedFeatures,LightGBM,rmse,163.56185755265278,8.65,0.0625
+9_Xgboost_GoldenFeatures_SelectedFeatures,Xgboost,rmse,169.80897785359255,8.55,0.067
+4_Default_CatBoost_GoldenFeatures_SelectedFeatures,CatBoost,rmse,164.75881195141062,15.33,0.028
+19_RandomForest_SelectedFeatures,Random Forest,rmse,176.4081973542563,8.55,0.1041
+26_NeuralNetwork_SelectedFeatures,Neural Network,rmse,199.34809188513375,4.2,0.037
+27_LightGBM_GoldenFeatures_SelectedFeatures,LightGBM,rmse,163.56185755265278,8.72,0.062
+28_LightGBM_GoldenFeatures_SelectedFeatures,LightGBM,rmse,163.56185755265278,8.71,0.063
+29_CatBoost_GoldenFeatures_SelectedFeatures,CatBoost,rmse,167.85373500147443,12.6,0.028
+30_CatBoost_GoldenFeatures_SelectedFeatures,CatBoost,rmse,168.21253420597773,15.84,0.028
+31_LightGBM_GoldenFeatures,LightGBM,rmse,169.49659205191136,10.86,0.0955
+32_LightGBM_GoldenFeatures,LightGBM,rmse,169.49659205191136,10.99,0.097
+33_Xgboost_GoldenFeatures_SelectedFeatures,Xgboost,rmse,170.37746534085966,8.67,0.057
+34_Xgboost_GoldenFeatures_SelectedFeatures,Xgboost,rmse,170.9660386610944,8.63,0.074
+35_Xgboost_GoldenFeatures,Xgboost,rmse,174.13123282687442,5.28,0.096
+36_Xgboost_GoldenFeatures,Xgboost,rmse,172.17951747085303,5.06,0.074
+37_CatBoost_GoldenFeatures,CatBoost,rmse,170.5055707189785,15.11,0.04
+38_CatBoost_GoldenFeatures,CatBoost,rmse,171.8748571725291,18.77,0.047
+39_RandomForest,Random Forest,rmse,178.46741978094977,11.22,0.1146
+40_RandomForest_SelectedFeatures,Random Forest,rmse,176.4081973542563,8.67,0.1086
+41_NeuralNetwork_SelectedFeatures,Neural Network,rmse,186.89229773219014,4.47,0.0363
+42_LightGBM_GoldenFeatures_SelectedFeatures,LightGBM,rmse,163.56185755265278,9.01,0.0625
+43_LightGBM_GoldenFeatures_SelectedFeatures,LightGBM,rmse,164.37868765492647,9.04,0.063
+44_LightGBM_GoldenFeatures_SelectedFeatures,LightGBM,rmse,163.56185755265278,9.13,0.041
+45_LightGBM_GoldenFeatures_SelectedFeatures,LightGBM,rmse,164.37868765492647,9.08,0.0625
+46_CatBoost_GoldenFeatures_SelectedFeatures,CatBoost,rmse,164.38516427910574,17.55,0.028
+47_CatBoost_GoldenFeatures_SelectedFeatures,CatBoost,rmse,166.2195669077211,16.26,0.031
+Ensemble,Ensemble,rmse,156.51318818177285,0.61,0.552

@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "\uc784\ub300\ubcf4\uc99d\uae08",
+            "feature2": "\ucd1d\uc138\ub300\uc218",
+            "operation": "multiply",
+            "score": 0.3374817664
+        },
+        {
+            "feature1": "\uba74\uc80146_51",
+            "feature2": "\ucd1d\uba74\uc801",
+            "operation": "sum",
+            "score": 0.3670963085
+        },
+        {
+            "feature1": "\ucd1d\uba74\uc801",
+            "feature2": "\ucd1d\uc138\ub300\uc218",
+            "operation": "sum",
+            "score": 0.3732028098
+        },
+        {
+            "feature1": "\uba74\uc80138_46",
+            "feature2": "\ucd1d\uba74\uc801",
+            "operation": "sum",
+            "score": 0.3741222782
+        },
+        {
+            "feature1": "\uba74\uc80185_127",
+            "feature2": "\ucd1d\uba74\uc801",
+            "operation": "sum",
+            "score": 0.3742734605
+        },
+        {
+            "feature1": "\ucd1d\uba74\uc801",
+            "feature2": "\uba74\uc801127_139",
+            "operation": "diff",
+            "score": 0.3742734605
+        },
+        {
+            "feature1": "\ucd1d\uba74\uc801",
+            "feature2": "\uba74\uc80185_127",
+            "operation": "diff",
+            "score": 0.3742734605
+        },
+        {
+            "feature1": "\uba74\uc80174_85",
+            "feature2": "\ucd1d\uba74\uc801",
+            "operation": "sum",
+            "score": 0.3742734605
+        },
+        {
+            "feature1": "\uba74\uc80159_74",
+            "feature2": "\ucd1d\uba74\uc801",
+            "operation": "sum",
+            "score": 0.3742734605
+        },
+        {
+            "feature1": "\ucd1d\uba74\uc801",
+            "feature2": "\uba74\uc80159_74",
+            "operation": "diff",
+            "score": 0.3742734605
+        }
+    ],
+    "new_columns": [
+        "\uc784\ub300\ubcf4\uc99d\uae08_multiply_\ucd1d\uc138\ub300\uc218",
+        "\uba74\uc80146_51_sum_\ucd1d\uba74\uc801",
+        "\ucd1d\uba74\uc801_sum_\ucd1d\uc138\ub300\uc218",
+        "\uba74\uc80138_46_sum_\ucd1d\uba74\uc801",
+        "\uba74\uc80185_127_sum_\ucd1d\uba74\uc801",
+        "\ucd1d\uba74\uc801_diff_\uba74\uc801127_139",
+        "\ucd1d\uba74\uc801_diff_\uba74\uc80185_127",
+        "\uba74\uc80174_85_sum_\ucd1d\uba74\uc801",
+        "\uba74\uc80159_74_sum_\ucd1d\uba74\uc801",
+        "\ucd1d\uba74\uc801_diff_\uba74\uc80159_74"
+    ],
+    "ml_task": "regression"
+}

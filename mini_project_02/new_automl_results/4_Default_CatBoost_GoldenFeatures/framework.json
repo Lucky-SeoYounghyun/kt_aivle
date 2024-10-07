@@ -1,0 +1,722 @@
+{
+    "uid": "f04d18cf-6a70-4bb9-9864-948bdb2f2875",
+    "name": "4_Default_CatBoost_GoldenFeatures",
+    "preprocessing": [
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "\uc784\ub300\ubcf4\uc99d\uae08",
+                        "feature2": "\ucd1d\uc138\ub300\uc218",
+                        "operation": "multiply",
+                        "score": 0.3174535341
+                    },
+                    {
+                        "feature1": "\uc784\ub300\ubcf4\uc99d\uae08",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "multiply",
+                        "score": 0.33633631
+                    },
+                    {
+                        "feature1": "\uba74\uc80117_26",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.407568755
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc80151_59",
+                        "operation": "diff",
+                        "score": 0.4090971843
+                    },
+                    {
+                        "feature1": "\uc900\uacf5\uc5f0\ub3c4",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "ratio",
+                        "score": 0.4162286979
+                    },
+                    {
+                        "feature1": "\uc900\uacf5\uc5f0\ub3c4",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "diff",
+                        "score": 0.4168819926
+                    },
+                    {
+                        "feature1": "\uba74\uc80174_85",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.4168819926
+                    },
+                    {
+                        "feature1": "\uba74\uc80159_74",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.4185050445
+                    },
+                    {
+                        "feature1": "\uba74\uc80185_127",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.4185050445
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc801127_139",
+                        "operation": "diff",
+                        "score": 0.4185050445
+                    }
+                ],
+                "new_columns": [
+                    "\uc784\ub300\ubcf4\uc99d\uae08_multiply_\ucd1d\uc138\ub300\uc218",
+                    "\uc784\ub300\ubcf4\uc99d\uae08_multiply_\ucd1d\uba74\uc801",
+                    "\uba74\uc80117_26_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc80151_59",
+                    "\uc900\uacf5\uc5f0\ub3c4_ratio_\ucd1d\uba74\uc801",
+                    "\uc900\uacf5\uc5f0\ub3c4_diff_\ucd1d\uba74\uc801",
+                    "\uba74\uc80174_85_sum_\ucd1d\uba74\uc801",
+                    "\uba74\uc80159_74_sum_\ucd1d\uba74\uc801",
+                    "\uba74\uc80185_127_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc801127_139"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    372.40060280265976
+                ],
+                "mean": [
+                    587.7025641025641
+                ],
+                "var": [
+                    138682.20896778436
+                ],
+                "n_samples_seen": 195,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_2",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "\uc784\ub300\ubcf4\uc99d\uae08",
+                        "feature2": "\ucd1d\uc138\ub300\uc218",
+                        "operation": "multiply",
+                        "score": 0.3174535341
+                    },
+                    {
+                        "feature1": "\uc784\ub300\ubcf4\uc99d\uae08",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "multiply",
+                        "score": 0.33633631
+                    },
+                    {
+                        "feature1": "\uba74\uc80117_26",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.407568755
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc80151_59",
+                        "operation": "diff",
+                        "score": 0.4090971843
+                    },
+                    {
+                        "feature1": "\uc900\uacf5\uc5f0\ub3c4",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "ratio",
+                        "score": 0.4162286979
+                    },
+                    {
+                        "feature1": "\uc900\uacf5\uc5f0\ub3c4",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "diff",
+                        "score": 0.4168819926
+                    },
+                    {
+                        "feature1": "\uba74\uc80174_85",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.4168819926
+                    },
+                    {
+                        "feature1": "\uba74\uc80159_74",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.4185050445
+                    },
+                    {
+                        "feature1": "\uba74\uc80185_127",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.4185050445
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc801127_139",
+                        "operation": "diff",
+                        "score": 0.4185050445
+                    }
+                ],
+                "new_columns": [
+                    "\uc784\ub300\ubcf4\uc99d\uae08_multiply_\ucd1d\uc138\ub300\uc218",
+                    "\uc784\ub300\ubcf4\uc99d\uae08_multiply_\ucd1d\uba74\uc801",
+                    "\uba74\uc80117_26_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc80151_59",
+                    "\uc900\uacf5\uc5f0\ub3c4_ratio_\ucd1d\uba74\uc801",
+                    "\uc900\uacf5\uc5f0\ub3c4_diff_\ucd1d\uba74\uc801",
+                    "\uba74\uc80174_85_sum_\ucd1d\uba74\uc801",
+                    "\uba74\uc80159_74_sum_\ucd1d\uba74\uc801",
+                    "\uba74\uc80185_127_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc801127_139"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    372.2690516784961
+                ],
+                "mean": [
+                    588.2666666666667
+                ],
+                "var": [
+                    138584.24683760683
+                ],
+                "n_samples_seen": 195,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_2",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "\uc784\ub300\ubcf4\uc99d\uae08",
+                        "feature2": "\ucd1d\uc138\ub300\uc218",
+                        "operation": "multiply",
+                        "score": 0.3174535341
+                    },
+                    {
+                        "feature1": "\uc784\ub300\ubcf4\uc99d\uae08",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "multiply",
+                        "score": 0.33633631
+                    },
+                    {
+                        "feature1": "\uba74\uc80117_26",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.407568755
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc80151_59",
+                        "operation": "diff",
+                        "score": 0.4090971843
+                    },
+                    {
+                        "feature1": "\uc900\uacf5\uc5f0\ub3c4",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "ratio",
+                        "score": 0.4162286979
+                    },
+                    {
+                        "feature1": "\uc900\uacf5\uc5f0\ub3c4",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "diff",
+                        "score": 0.4168819926
+                    },
+                    {
+                        "feature1": "\uba74\uc80174_85",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.4168819926
+                    },
+                    {
+                        "feature1": "\uba74\uc80159_74",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.4185050445
+                    },
+                    {
+                        "feature1": "\uba74\uc80185_127",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.4185050445
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc801127_139",
+                        "operation": "diff",
+                        "score": 0.4185050445
+                    }
+                ],
+                "new_columns": [
+                    "\uc784\ub300\ubcf4\uc99d\uae08_multiply_\ucd1d\uc138\ub300\uc218",
+                    "\uc784\ub300\ubcf4\uc99d\uae08_multiply_\ucd1d\uba74\uc801",
+                    "\uba74\uc80117_26_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc80151_59",
+                    "\uc900\uacf5\uc5f0\ub3c4_ratio_\ucd1d\uba74\uc801",
+                    "\uc900\uacf5\uc5f0\ub3c4_diff_\ucd1d\uba74\uc801",
+                    "\uba74\uc80174_85_sum_\ucd1d\uba74\uc801",
+                    "\uba74\uc80159_74_sum_\ucd1d\uba74\uc801",
+                    "\uba74\uc80185_127_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc801127_139"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    364.48422524664755
+                ],
+                "mean": [
+                    580.2923076923076
+                ],
+                "var": [
+                    132848.7504536489
+                ],
+                "n_samples_seen": 195,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_2",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "\uc784\ub300\ubcf4\uc99d\uae08",
+                        "feature2": "\ucd1d\uc138\ub300\uc218",
+                        "operation": "multiply",
+                        "score": 0.3174535341
+                    },
+                    {
+                        "feature1": "\uc784\ub300\ubcf4\uc99d\uae08",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "multiply",
+                        "score": 0.33633631
+                    },
+                    {
+                        "feature1": "\uba74\uc80117_26",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.407568755
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc80151_59",
+                        "operation": "diff",
+                        "score": 0.4090971843
+                    },
+                    {
+                        "feature1": "\uc900\uacf5\uc5f0\ub3c4",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "ratio",
+                        "score": 0.4162286979
+                    },
+                    {
+                        "feature1": "\uc900\uacf5\uc5f0\ub3c4",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "diff",
+                        "score": 0.4168819926
+                    },
+                    {
+                        "feature1": "\uba74\uc80174_85",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.4168819926
+                    },
+                    {
+                        "feature1": "\uba74\uc80159_74",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.4185050445
+                    },
+                    {
+                        "feature1": "\uba74\uc80185_127",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.4185050445
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc801127_139",
+                        "operation": "diff",
+                        "score": 0.4185050445
+                    }
+                ],
+                "new_columns": [
+                    "\uc784\ub300\ubcf4\uc99d\uae08_multiply_\ucd1d\uc138\ub300\uc218",
+                    "\uc784\ub300\ubcf4\uc99d\uae08_multiply_\ucd1d\uba74\uc801",
+                    "\uba74\uc80117_26_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc80151_59",
+                    "\uc900\uacf5\uc5f0\ub3c4_ratio_\ucd1d\uba74\uc801",
+                    "\uc900\uacf5\uc5f0\ub3c4_diff_\ucd1d\uba74\uc801",
+                    "\uba74\uc80174_85_sum_\ucd1d\uba74\uc801",
+                    "\uba74\uc80159_74_sum_\ucd1d\uba74\uc801",
+                    "\uba74\uc80185_127_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc801127_139"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    377.1105779580964
+                ],
+                "mean": [
+                    581.3384615384615
+                ],
+                "var": [
+                    142212.38800788953
+                ],
+                "n_samples_seen": 195,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_2",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "\uc784\ub300\ubcf4\uc99d\uae08",
+                        "feature2": "\ucd1d\uc138\ub300\uc218",
+                        "operation": "multiply",
+                        "score": 0.3174535341
+                    },
+                    {
+                        "feature1": "\uc784\ub300\ubcf4\uc99d\uae08",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "multiply",
+                        "score": 0.33633631
+                    },
+                    {
+                        "feature1": "\uba74\uc80117_26",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.407568755
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc80151_59",
+                        "operation": "diff",
+                        "score": 0.4090971843
+                    },
+                    {
+                        "feature1": "\uc900\uacf5\uc5f0\ub3c4",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "ratio",
+                        "score": 0.4162286979
+                    },
+                    {
+                        "feature1": "\uc900\uacf5\uc5f0\ub3c4",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "diff",
+                        "score": 0.4168819926
+                    },
+                    {
+                        "feature1": "\uba74\uc80174_85",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.4168819926
+                    },
+                    {
+                        "feature1": "\uba74\uc80159_74",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.4185050445
+                    },
+                    {
+                        "feature1": "\uba74\uc80185_127",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.4185050445
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc801127_139",
+                        "operation": "diff",
+                        "score": 0.4185050445
+                    }
+                ],
+                "new_columns": [
+                    "\uc784\ub300\ubcf4\uc99d\uae08_multiply_\ucd1d\uc138\ub300\uc218",
+                    "\uc784\ub300\ubcf4\uc99d\uae08_multiply_\ucd1d\uba74\uc801",
+                    "\uba74\uc80117_26_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc80151_59",
+                    "\uc900\uacf5\uc5f0\ub3c4_ratio_\ucd1d\uba74\uc801",
+                    "\uc900\uacf5\uc5f0\ub3c4_diff_\ucd1d\uba74\uc801",
+                    "\uba74\uc80174_85_sum_\ucd1d\uba74\uc801",
+                    "\uba74\uc80159_74_sum_\ucd1d\uba74\uc801",
+                    "\uba74\uc80185_127_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc801127_139"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    370.8276392981945
+                ],
+                "mean": [
+                    591.8775510204082
+                ],
+                "var": [
+                    137513.13806747188
+                ],
+                "n_samples_seen": 196,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_2",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.2.7",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "6fec387f-bdb5-4f8b-9628-1f75905a7f46",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1,
+                "loss_function": "RMSE",
+                "seed": 4,
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_0",
+            "best_ntree_limit": 31
+        },
+        {
+            "library_version": "1.2.7",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "bbee60b8-98e9-42ff-be07-8dcafa9c1ad7",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1,
+                "loss_function": "RMSE",
+                "seed": 4,
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_1",
+            "best_ntree_limit": 82
+        },
+        {
+            "library_version": "1.2.7",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "d3de229d-fcbb-42b4-8524-41ddbfd5ae08",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1,
+                "loss_function": "RMSE",
+                "seed": 4,
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_2",
+            "best_ntree_limit": 150
+        },
+        {
+            "library_version": "1.2.7",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "89ba88d1-9a26-4a68-bfbe-ecd6df6bc03e",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1,
+                "loss_function": "RMSE",
+                "seed": 4,
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_3",
+            "best_ntree_limit": 299
+        },
+        {
+            "library_version": "1.2.7",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "7674939a-32d4-4a87-b9dc-c732d07323a6",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1,
+                "loss_function": "RMSE",
+                "seed": 4,
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_4",
+            "best_ntree_limit": 100
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression",
+            "golden_features": {
+                "results_path": "AutoML_2",
+                "ml_task": "regression",
+                "n_jobs": -1
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "X_path": "AutoML_2\\X.data",
+            "y_path": "AutoML_2\\y.data",
+            "results_path": "AutoML_2"
+        },
+        "learner": {
+            "model_type": "CatBoost",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "learning_rate": 0.1,
+            "depth": 6,
+            "rsm": 1,
+            "loss_function": "RMSE",
+            "seed": 4,
+            "eval_metric": "RMSE",
+            "explain_level": 1
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 1,
+        "name": "4_Default_CatBoost_GoldenFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_golden_features",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "4_Default_CatBoost_GoldenFeatures\\learner_fold_0.catboost",
+        "4_Default_CatBoost_GoldenFeatures\\learner_fold_1.catboost",
+        "4_Default_CatBoost_GoldenFeatures\\learner_fold_2.catboost",
+        "4_Default_CatBoost_GoldenFeatures\\learner_fold_3.catboost",
+        "4_Default_CatBoost_GoldenFeatures\\learner_fold_4.catboost"
+    ],
+    "predictions_fname": "4_Default_CatBoost_GoldenFeatures\\predictions_out_of_folds.csv",
+    "metric_name": "rmse",
+    "final_loss": "181.6691649330404",
+    "train_time": 17.58315920829773,
+    "is_stacked": false,
+    "joblib_version": "1.4.2",
+    "single_prediction_time": 0.0410003662109375
+}

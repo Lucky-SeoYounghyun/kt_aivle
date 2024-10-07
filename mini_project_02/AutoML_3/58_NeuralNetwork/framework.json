@@ -1,0 +1,1163 @@
+{
+    "uid": "cf9abd2c-ce61-43a2-b514-89e78662f9e0",
+    "name": "58_NeuralNetwork",
+    "preprocessing": [
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "\uac74\ubb3c\ud615\ud0dc": {
+                            "\uacc4\ub2e8\uc2dd": 0,
+                            "\ubcf5\ub3c4\uc2dd": 1,
+                            "\ud63c\ud569\uc2dd": 2
+                        },
+                        "\ub09c\ubc29\ubc29\uc2dd": {
+                            "\uac1c\ubcc4": 0,
+                            "\uc911\uc559": 1,
+                            "\uc9c0\uc5ed": 2
+                        },
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": {
+                            "0": 0,
+                            "1": 1
+                        }
+                    },
+                    "columns": [
+                        "\uac74\ubb3c\ud615\ud0dc",
+                        "\ub09c\ubc29\ubc29\uc2dd",
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        417.02906632556596,
+                        7.067353298009722,
+                        0.639904744159021,
+                        0.9322625693783319,
+                        0.19982631347136331,
+                        29400.708854481025,
+                        110.64746699332945,
+                        190.9119418672547,
+                        208.9324130624102,
+                        150.45381789226678,
+                        244.84787652517818,
+                        82.52829228023992,
+                        145.32300803926952,
+                        38.37386755250896,
+                        5.606296063851387,
+                        25168368.29902224,
+                        164509.90261842284
+                    ],
+                    "mean": [
+                        535.7447916666666,
+                        2007.9791666666667,
+                        0.8177083333333334,
+                        0.6927083333333334,
+                        0.9583333333333334,
+                        36811.667784895835,
+                        22.755208333333332,
+                        110.015625,
+                        115.84895833333333,
+                        89.734375,
+                        125.91666666666667,
+                        22.765625,
+                        43.432291666666664,
+                        4.59375,
+                        0.6666666666666666,
+                        25341498.406498015,
+                        204146.3199293473
+                    ],
+                    "var": [
+                        173913.24216037328,
+                        49.94748263888889,
+                        0.40947808159722215,
+                        0.869113498263889,
+                        0.03993055555555556,
+                        864401681.1459589,
+                        12242.86195203993,
+                        36447.36954752604,
+                        43652.7532280816,
+                        22636.351318359375,
+                        59950.4826388889,
+                        6810.919026692708,
+                        21118.776665581598,
+                        1472.5537109375,
+                        31.430555555555554,
+                        633446762835227.6,
+                        27063508059.52297
+                    ],
+                    "n_samples_seen": 192,
+                    "n_features_in": 17,
+                    "columns": [
+                        "\ucd1d\uc138\ub300\uc218",
+                        "\uc900\uacf5\uc5f0\ub3c4",
+                        "\uac74\ubb3c\ud615\ud0dc",
+                        "\ub09c\ubc29\ubc29\uc2dd",
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80",
+                        "\ucd1d\uba74\uc801",
+                        "\uba74\uc80117_26",
+                        "\uba74\uc80126_38",
+                        "\uba74\uc80138_46",
+                        "\uba74\uc80146_51",
+                        "\uba74\uc80151_59",
+                        "\uba74\uc80159_74",
+                        "\uba74\uc80174_85",
+                        "\uba74\uc80185_127",
+                        "\uba74\uc801127_139",
+                        "\uc784\ub300\ubcf4\uc99d\uae08",
+                        "\uc784\ub300\ub8cc"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    376.1633932354041
+                ],
+                "mean": [
+                    553.2552083333334
+                ],
+                "var": [
+                    141498.89841037325
+                ],
+                "n_samples_seen": 192,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "\ucd1d\uc138\ub300\uc218": [
+                        "scale_normal"
+                    ],
+                    "\uc900\uacf5\uc5f0\ub3c4": [
+                        "scale_normal"
+                    ],
+                    "\uac74\ubb3c\ud615\ud0dc": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "\ub09c\ubc29\ubc29\uc2dd": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "\ucd1d\uba74\uc801": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80117_26": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80126_38": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80138_46": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80146_51": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80151_59": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80159_74": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80174_85": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80185_127": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc801127_139": [
+                        "scale_normal"
+                    ],
+                    "\uc784\ub300\ubcf4\uc99d\uae08": [
+                        "scale_normal"
+                    ],
+                    "\uc784\ub300\ub8cc": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "\uac74\ubb3c\ud615\ud0dc": {
+                            "\uacc4\ub2e8\uc2dd": 0,
+                            "\ubcf5\ub3c4\uc2dd": 1,
+                            "\ud63c\ud569\uc2dd": 2
+                        },
+                        "\ub09c\ubc29\ubc29\uc2dd": {
+                            "\uac1c\ubcc4": 0,
+                            "\uc911\uc559": 1,
+                            "\uc9c0\uc5ed": 2
+                        },
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": {
+                            "0": 0,
+                            "1": 1
+                        }
+                    },
+                    "columns": [
+                        "\uac74\ubb3c\ud615\ud0dc",
+                        "\ub09c\ubc29\ubc29\uc2dd",
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        416.57995804640535,
+                        7.3206549602262925,
+                        0.6571124917093344,
+                        0.9245184450754379,
+                        0.17355579507196092,
+                        29641.39291769701,
+                        137.5435933082157,
+                        207.52837393299941,
+                        184.20535619618244,
+                        173.89209571447427,
+                        236.02871828200998,
+                        141.3191615657587,
+                        146.95057731683,
+                        36.295308310485034,
+                        4.817861654360948,
+                        23731498.515043605,
+                        159040.74000983036
+                    ],
+                    "mean": [
+                        555.119170984456,
+                        2007.937823834197,
+                        0.844559585492228,
+                        0.694300518134715,
+                        0.9689119170984456,
+                        38272.73072176166,
+                        27.357512953367877,
+                        109.87564766839378,
+                        107.82901554404145,
+                        99.69430051813471,
+                        122.39896373056995,
+                        38.310880829015545,
+                        44.90155440414508,
+                        3.673575129533679,
+                        0.45595854922279794,
+                        24028332.315568715,
+                        198541.6189131824
+                    ],
+                    "var": [
+                        173538.86144594484,
+                        53.59198904668582,
+                        0.43179682676045,
+                        0.8547343552847054,
+                        0.03012161400306049,
+                        878612174.1012985,
+                        18918.24006013584,
+                        43068.025987274836,
+                        33931.61325136245,
+                        30238.460951971876,
+                        55709.555853848426,
+                        19971.10542564901,
+                        21594.472173749633,
+                        1317.349405353164,
+                        23.211790920561615,
+                        563184021769516.8,
+                        25293956982.87446
+                    ],
+                    "n_samples_seen": 193,
+                    "n_features_in": 17,
+                    "columns": [
+                        "\ucd1d\uc138\ub300\uc218",
+                        "\uc900\uacf5\uc5f0\ub3c4",
+                        "\uac74\ubb3c\ud615\ud0dc",
+                        "\ub09c\ubc29\ubc29\uc2dd",
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80",
+                        "\ucd1d\uba74\uc801",
+                        "\uba74\uc80117_26",
+                        "\uba74\uc80126_38",
+                        "\uba74\uc80138_46",
+                        "\uba74\uc80146_51",
+                        "\uba74\uc80151_59",
+                        "\uba74\uc80159_74",
+                        "\uba74\uc80174_85",
+                        "\uba74\uc80185_127",
+                        "\uba74\uc801127_139",
+                        "\uc784\ub300\ubcf4\uc99d\uae08",
+                        "\uc784\ub300\ub8cc"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    375.0136161899295
+                ],
+                "mean": [
+                    571.9896373056995
+                ],
+                "var": [
+                    140635.21232784775
+                ],
+                "n_samples_seen": 193,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "\ucd1d\uc138\ub300\uc218": [
+                        "scale_normal"
+                    ],
+                    "\uc900\uacf5\uc5f0\ub3c4": [
+                        "scale_normal"
+                    ],
+                    "\uac74\ubb3c\ud615\ud0dc": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "\ub09c\ubc29\ubc29\uc2dd": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "\ucd1d\uba74\uc801": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80117_26": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80126_38": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80138_46": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80146_51": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80151_59": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80159_74": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80174_85": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80185_127": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc801127_139": [
+                        "scale_normal"
+                    ],
+                    "\uc784\ub300\ubcf4\uc99d\uae08": [
+                        "scale_normal"
+                    ],
+                    "\uc784\ub300\ub8cc": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "\uac74\ubb3c\ud615\ud0dc": {
+                            "\uacc4\ub2e8\uc2dd": 0,
+                            "\ubcf5\ub3c4\uc2dd": 1,
+                            "\ud63c\ud569\uc2dd": 2
+                        },
+                        "\ub09c\ubc29\ubc29\uc2dd": {
+                            "\uac1c\ubcc4": 0,
+                            "\uc911\uc559": 1,
+                            "\uc9c0\uc5ed": 2
+                        },
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": {
+                            "0": 0,
+                            "1": 1
+                        }
+                    },
+                    "columns": [
+                        "\uac74\ubb3c\ud615\ud0dc",
+                        "\ub09c\ubc29\ubc29\uc2dd",
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        410.19256607131246,
+                        7.035643672526492,
+                        0.6383789774616141,
+                        0.9290084640922655,
+                        0.199330404784159,
+                        28273.7473180246,
+                        110.32312360724352,
+                        213.81769152292688,
+                        192.66736844839238,
+                        172.25870500881555,
+                        229.79218451835973,
+                        141.82806163008337,
+                        120.55098167273434,
+                        12.420509418006871,
+                        2.871794085088294,
+                        20629071.736666564,
+                        163234.363452914
+                    ],
+                    "mean": [
+                        536.5906735751296,
+                        2007.7564766839378,
+                        0.8186528497409327,
+                        0.6994818652849741,
+                        0.9585492227979274,
+                        36863.928779792746,
+                        20.010362694300518,
+                        110.41968911917098,
+                        105.7720207253886,
+                        94.21761658031087,
+                        127.5958549222798,
+                        40.22279792746114,
+                        37.751295336787564,
+                        0.8963730569948186,
+                        0.20725388601036268,
+                        24396427.541327413,
+                        204682.9240163981
+                    ],
+                    "var": [
+                        168257.94126016804,
+                        49.50028188676206,
+                        0.407527718864936,
+                        0.86305672635507,
+                        0.03973261027141668,
+                        799404787.4035033,
+                        12171.191602459132,
+                        45718.005208193514,
+                        37120.71486482859,
+                        29673.061451314134,
+                        52804.44806571988,
+                        20115.19906574673,
+                        14532.539182259929,
+                        154.26905420279738,
+                        8.247201267148112,
+                        425558600716535.3,
+                        26645457411.878025
+                    ],
+                    "n_samples_seen": 193,
+                    "n_features_in": 17,
+                    "columns": [
+                        "\ucd1d\uc138\ub300\uc218",
+                        "\uc900\uacf5\uc5f0\ub3c4",
+                        "\uac74\ubb3c\ud615\ud0dc",
+                        "\ub09c\ubc29\ubc29\uc2dd",
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80",
+                        "\ucd1d\uba74\uc801",
+                        "\uba74\uc80117_26",
+                        "\uba74\uc80126_38",
+                        "\uba74\uc80138_46",
+                        "\uba74\uc80146_51",
+                        "\uba74\uc80151_59",
+                        "\uba74\uc80159_74",
+                        "\uba74\uc80174_85",
+                        "\uba74\uc80185_127",
+                        "\uba74\uc801127_139",
+                        "\uc784\ub300\ubcf4\uc99d\uae08",
+                        "\uc784\ub300\ub8cc"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    375.6595083358327
+                ],
+                "mean": [
+                    558.3316062176166
+                ],
+                "var": [
+                    141120.06620311955
+                ],
+                "n_samples_seen": 193,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "\ucd1d\uc138\ub300\uc218": [
+                        "scale_normal"
+                    ],
+                    "\uc900\uacf5\uc5f0\ub3c4": [
+                        "scale_normal"
+                    ],
+                    "\uac74\ubb3c\ud615\ud0dc": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "\ub09c\ubc29\ubc29\uc2dd": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "\ucd1d\uba74\uc801": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80117_26": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80126_38": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80138_46": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80146_51": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80151_59": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80159_74": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80174_85": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80185_127": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc801127_139": [
+                        "scale_normal"
+                    ],
+                    "\uc784\ub300\ubcf4\uc99d\uae08": [
+                        "scale_normal"
+                    ],
+                    "\uc784\ub300\ub8cc": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "\uac74\ubb3c\ud615\ud0dc": {
+                            "\uacc4\ub2e8\uc2dd": 0,
+                            "\ubcf5\ub3c4\uc2dd": 1,
+                            "\ud63c\ud569\uc2dd": 2
+                        },
+                        "\ub09c\ubc29\ubc29\uc2dd": {
+                            "\uac1c\ubcc4": 0,
+                            "\uc911\uc559": 1,
+                            "\uc9c0\uc5ed": 2
+                        },
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": {
+                            "0": 0,
+                            "1": 1
+                        }
+                    },
+                    "columns": [
+                        "\uac74\ubb3c\ud615\ud0dc",
+                        "\ub09c\ubc29\ubc29\uc2dd",
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        430.32923525847053,
+                        7.045835828217147,
+                        0.6529730946873442,
+                        0.9230363084619005,
+                        0.18695977774786232,
+                        30474.940805811235,
+                        120.71845028873523,
+                        207.62465824505242,
+                        190.3702668988907,
+                        172.3174299921673,
+                        239.02391930145433,
+                        126.58102689304785,
+                        156.4204280716855,
+                        38.27574521832385,
+                        5.591957959904348,
+                        25925241.406219047,
+                        176395.85903285767
+                    ],
+                    "mean": [
+                        532.6217616580311,
+                        2008.062176165803,
+                        0.7875647668393783,
+                        0.6735751295336787,
+                        0.9637305699481865,
+                        37349.25341709844,
+                        17.492227979274613,
+                        106.29015544041451,
+                        108.07772020725389,
+                        94.11917098445596,
+                        116.87046632124353,
+                        31.989637305699482,
+                        52.637305699481864,
+                        4.569948186528498,
+                        0.6632124352331606,
+                        25273006.550703187,
+                        205257.48678883008
+                    ],
+                    "var": [
+                        185183.25071814007,
+                        49.64380251818841,
+                        0.4263738623855674,
+                        0.8519960267389728,
+                        0.034953958495530076,
+                        928722017.1176987,
+                        14572.944240113839,
+                        43107.99871137481,
+                        36240.83851915488,
+                        29693.296679105475,
+                        57132.433998228145,
+                        16022.756369298504,
+                        24467.35031812934,
+                        1465.0326720180408,
+                        31.2699938253376,
+                        672118141970734.5,
+                        31115499083.939796
+                    ],
+                    "n_samples_seen": 193,
+                    "n_features_in": 17,
+                    "columns": [
+                        "\ucd1d\uc138\ub300\uc218",
+                        "\uc900\uacf5\uc5f0\ub3c4",
+                        "\uac74\ubb3c\ud615\ud0dc",
+                        "\ub09c\ubc29\ubc29\uc2dd",
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80",
+                        "\ucd1d\uba74\uc801",
+                        "\uba74\uc80117_26",
+                        "\uba74\uc80126_38",
+                        "\uba74\uc80138_46",
+                        "\uba74\uc80146_51",
+                        "\uba74\uc80151_59",
+                        "\uba74\uc80159_74",
+                        "\uba74\uc80174_85",
+                        "\uba74\uc80185_127",
+                        "\uba74\uc801127_139",
+                        "\uc784\ub300\ubcf4\uc99d\uae08",
+                        "\uc784\ub300\ub8cc"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    379.4851319815365
+                ],
+                "mean": [
+                    571.0932642487047
+                ],
+                "var": [
+                    144008.96539504416
+                ],
+                "n_samples_seen": 193,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "\ucd1d\uc138\ub300\uc218": [
+                        "scale_normal"
+                    ],
+                    "\uc900\uacf5\uc5f0\ub3c4": [
+                        "scale_normal"
+                    ],
+                    "\uac74\ubb3c\ud615\ud0dc": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "\ub09c\ubc29\ubc29\uc2dd": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "\ucd1d\uba74\uc801": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80117_26": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80126_38": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80138_46": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80146_51": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80151_59": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80159_74": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80174_85": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80185_127": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc801127_139": [
+                        "scale_normal"
+                    ],
+                    "\uc784\ub300\ubcf4\uc99d\uae08": [
+                        "scale_normal"
+                    ],
+                    "\uc784\ub300\ub8cc": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "\uac74\ubb3c\ud615\ud0dc": {
+                            "\uacc4\ub2e8\uc2dd": 0,
+                            "\ubcf5\ub3c4\uc2dd": 1,
+                            "\ud63c\ud569\uc2dd": 2
+                        },
+                        "\ub09c\ubc29\ubc29\uc2dd": {
+                            "\uac1c\ubcc4": 0,
+                            "\uc911\uc559": 1,
+                            "\uc9c0\uc5ed": 2
+                        },
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": {
+                            "0": 0,
+                            "1": 1
+                        }
+                    },
+                    "columns": [
+                        "\uac74\ubb3c\ud615\ud0dc",
+                        "\ub09c\ubc29\ubc29\uc2dd",
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        421.8486100868536,
+                        7.365707324699922,
+                        0.6302103018551964,
+                        0.940068307220025,
+                        0.18695977774786235,
+                        29939.15919188358,
+                        138.1408710909952,
+                        207.25162097207885,
+                        201.9947624999839,
+                        172.98216634852133,
+                        230.30415407161274,
+                        138.01228010622725,
+                        154.15507626387293,
+                        38.27574521832385,
+                        5.591957959904348,
+                        26359325.686611567,
+                        175877.99658104143
+                    ],
+                    "mean": [
+                        551.4870466321244,
+                        2008.0155440414508,
+                        0.8186528497409327,
+                        0.7461139896373057,
+                        0.9637305699481865,
+                        38277.76924974094,
+                        28.70984455958549,
+                        112.50777202072538,
+                        110.61658031088083,
+                        88.29533678756476,
+                        117.81865284974093,
+                        37.295336787564764,
+                        50.994818652849744,
+                        4.569948186528498,
+                        0.6632124352331606,
+                        25758826.665433016,
+                        207212.3660046057
+                    ],
+                    "var": [
+                        177956.24983221025,
+                        54.253644393138075,
+                        0.3971650245644179,
+                        0.8837284222395233,
+                        0.03495395849553008,
+                        896353253.1169472,
+                        19082.900265778953,
+                        42953.23439555424,
+                        40801.8840774249,
+                        29922.82987462751,
+                        53040.003382641145,
+                        19047.38946011973,
+                        23763.787537920478,
+                        1465.0326720180408,
+                        31.269993825337597,
+                        694814050652860.4,
+                        30933069681.36082
+                    ],
+                    "n_samples_seen": 193,
+                    "n_features_in": 17,
+                    "columns": [
+                        "\ucd1d\uc138\ub300\uc218",
+                        "\uc900\uacf5\uc5f0\ub3c4",
+                        "\uac74\ubb3c\ud615\ud0dc",
+                        "\ub09c\ubc29\ubc29\uc2dd",
+                        "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80",
+                        "\ucd1d\uba74\uc801",
+                        "\uba74\uc80117_26",
+                        "\uba74\uc80126_38",
+                        "\uba74\uc80138_46",
+                        "\uba74\uc80146_51",
+                        "\uba74\uc80151_59",
+                        "\uba74\uc80159_74",
+                        "\uba74\uc80174_85",
+                        "\uba74\uc80185_127",
+                        "\uba74\uc801127_139",
+                        "\uc784\ub300\ubcf4\uc99d\uae08",
+                        "\uc784\ub300\ub8cc"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    382.7783569958537
+                ],
+                "mean": [
+                    572.860103626943
+                ],
+                "var": [
+                    146519.2705844452
+                ],
+                "n_samples_seen": 193,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "\ucd1d\uc138\ub300\uc218": [
+                        "scale_normal"
+                    ],
+                    "\uc900\uacf5\uc5f0\ub3c4": [
+                        "scale_normal"
+                    ],
+                    "\uac74\ubb3c\ud615\ud0dc": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "\ub09c\ubc29\ubc29\uc2dd": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "\ucd1d\uba74\uc801": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80117_26": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80126_38": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80138_46": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80146_51": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80151_59": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80159_74": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80174_85": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc80185_127": [
+                        "scale_normal"
+                    ],
+                    "\uba74\uc801127_139": [
+                        "scale_normal"
+                    ],
+                    "\uc784\ub300\ubcf4\uc99d\uae08": [
+                        "scale_normal"
+                    ],
+                    "\uc784\ub300\ub8cc": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.5.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "729b36b0-45f1-469b-871a-ccbd6c45716c",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1238,
+                "dense_1_size": 32,
+                "dense_2_size": 32,
+                "learning_rate": 0.01,
+                "explain_level": 1
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.5.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "8885ed04-704a-4013-a11c-1a18e20ad9f5",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1238,
+                "dense_1_size": 32,
+                "dense_2_size": 32,
+                "learning_rate": 0.01,
+                "explain_level": 1
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.5.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "5964f191-2251-4bf7-a81b-b846977ba22f",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1238,
+                "dense_1_size": 32,
+                "dense_2_size": 32,
+                "learning_rate": 0.01,
+                "explain_level": 1
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.5.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "bc01ccc9-4ecf-4a8c-beed-591d24aae56c",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1238,
+                "dense_1_size": 32,
+                "dense_2_size": 32,
+                "learning_rate": 0.01,
+                "explain_level": 1
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "1.5.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "dbabf861-7c00-43e4-9225-b439d1ed8707",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1238,
+                "dense_1_size": 32,
+                "dense_2_size": 32,
+                "learning_rate": 0.01,
+                "explain_level": 1
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "\ucd1d\uc138\ub300\uc218": [
+                    "scale_normal"
+                ],
+                "\uc900\uacf5\uc5f0\ub3c4": [
+                    "scale_normal"
+                ],
+                "\uac74\ubb3c\ud615\ud0dc": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "\ub09c\ubc29\ubc29\uc2dd": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "\uc2b9\uac15\uae30\uc124\uce58\uc5ec\ubd80": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "\ucd1d\uba74\uc801": [
+                    "scale_normal"
+                ],
+                "\uba74\uc80117_26": [
+                    "scale_normal"
+                ],
+                "\uba74\uc80126_38": [
+                    "scale_normal"
+                ],
+                "\uba74\uc80138_46": [
+                    "scale_normal"
+                ],
+                "\uba74\uc80146_51": [
+                    "scale_normal"
+                ],
+                "\uba74\uc80151_59": [
+                    "scale_normal"
+                ],
+                "\uba74\uc80159_74": [
+                    "scale_normal"
+                ],
+                "\uba74\uc80174_85": [
+                    "scale_normal"
+                ],
+                "\uba74\uc80185_127": [
+                    "scale_normal"
+                ],
+                "\uba74\uc801127_139": [
+                    "scale_normal"
+                ],
+                "\uc784\ub300\ubcf4\uc99d\uae08": [
+                    "scale_normal"
+                ],
+                "\uc784\ub300\ub8cc": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "X_path": "AutoML_3\\X.data",
+            "y_path": "AutoML_3\\y.data",
+            "results_path": "AutoML_3"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1238,
+            "dense_1_size": 32,
+            "dense_2_size": 32,
+            "learning_rate": 0.01,
+            "explain_level": 1
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 1,
+        "name": "58_NeuralNetwork",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "58_NeuralNetwork\\learner_fold_0.neural_network",
+        "58_NeuralNetwork\\learner_fold_1.neural_network",
+        "58_NeuralNetwork\\learner_fold_2.neural_network",
+        "58_NeuralNetwork\\learner_fold_3.neural_network",
+        "58_NeuralNetwork\\learner_fold_4.neural_network"
+    ],
+    "predictions_fname": "58_NeuralNetwork\\predictions_out_of_folds.csv",
+    "metric_name": "rmse",
+    "final_loss": "230.5074040522984",
+    "train_time": 3.198237895965576,
+    "is_stacked": false,
+    "joblib_version": "1.4.2",
+    "single_prediction_time": 0.046999454498291016
+}

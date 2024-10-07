@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "\uc784\ub300\ubcf4\uc99d\uae08",
+            "feature2": "\ucd1d\uc138\ub300\uc218",
+            "operation": "multiply",
+            "score": 0.3174535341
+        },
+        {
+            "feature1": "\uc784\ub300\ubcf4\uc99d\uae08",
+            "feature2": "\ucd1d\uba74\uc801",
+            "operation": "multiply",
+            "score": 0.33633631
+        },
+        {
+            "feature1": "\uba74\uc80117_26",
+            "feature2": "\ucd1d\uba74\uc801",
+            "operation": "sum",
+            "score": 0.407568755
+        },
+        {
+            "feature1": "\ucd1d\uba74\uc801",
+            "feature2": "\uba74\uc80151_59",
+            "operation": "diff",
+            "score": 0.4090971843
+        },
+        {
+            "feature1": "\uc900\uacf5\uc5f0\ub3c4",
+            "feature2": "\ucd1d\uba74\uc801",
+            "operation": "ratio",
+            "score": 0.4162286979
+        },
+        {
+            "feature1": "\uc900\uacf5\uc5f0\ub3c4",
+            "feature2": "\ucd1d\uba74\uc801",
+            "operation": "diff",
+            "score": 0.4168819926
+        },
+        {
+            "feature1": "\uba74\uc80174_85",
+            "feature2": "\ucd1d\uba74\uc801",
+            "operation": "sum",
+            "score": 0.4168819926
+        },
+        {
+            "feature1": "\uba74\uc80159_74",
+            "feature2": "\ucd1d\uba74\uc801",
+            "operation": "sum",
+            "score": 0.4185050445
+        },
+        {
+            "feature1": "\uba74\uc80185_127",
+            "feature2": "\ucd1d\uba74\uc801",
+            "operation": "sum",
+            "score": 0.4185050445
+        },
+        {
+            "feature1": "\ucd1d\uba74\uc801",
+            "feature2": "\uba74\uc801127_139",
+            "operation": "diff",
+            "score": 0.4185050445
+        }
+    ],
+    "new_columns": [
+        "\uc784\ub300\ubcf4\uc99d\uae08_multiply_\ucd1d\uc138\ub300\uc218",
+        "\uc784\ub300\ubcf4\uc99d\uae08_multiply_\ucd1d\uba74\uc801",
+        "\uba74\uc80117_26_sum_\ucd1d\uba74\uc801",
+        "\ucd1d\uba74\uc801_diff_\uba74\uc80151_59",
+        "\uc900\uacf5\uc5f0\ub3c4_ratio_\ucd1d\uba74\uc801",
+        "\uc900\uacf5\uc5f0\ub3c4_diff_\ucd1d\uba74\uc801",
+        "\uba74\uc80174_85_sum_\ucd1d\uba74\uc801",
+        "\uba74\uc80159_74_sum_\ucd1d\uba74\uc801",
+        "\uba74\uc80185_127_sum_\ucd1d\uba74\uc801",
+        "\ucd1d\uba74\uc801_diff_\uba74\uc801127_139"
+    ],
+    "ml_task": "regression"
+}

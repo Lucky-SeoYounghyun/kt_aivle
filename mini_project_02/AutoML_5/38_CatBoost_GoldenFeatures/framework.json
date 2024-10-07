@@ -1,0 +1,722 @@
+{
+    "uid": "3b375cf4-6897-4248-baae-fd5b3ae92ed2",
+    "name": "38_CatBoost_GoldenFeatures",
+    "preprocessing": [
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "\uc784\ub300\ubcf4\uc99d\uae08",
+                        "feature2": "\ucd1d\uc138\ub300\uc218",
+                        "operation": "multiply",
+                        "score": 0.3374817664
+                    },
+                    {
+                        "feature1": "\uba74\uc80146_51",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3670963085
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\ucd1d\uc138\ub300\uc218",
+                        "operation": "sum",
+                        "score": 0.3732028098
+                    },
+                    {
+                        "feature1": "\uba74\uc80138_46",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3741222782
+                    },
+                    {
+                        "feature1": "\uba74\uc80185_127",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc801127_139",
+                        "operation": "diff",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc80185_127",
+                        "operation": "diff",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\uba74\uc80174_85",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\uba74\uc80159_74",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc80159_74",
+                        "operation": "diff",
+                        "score": 0.3742734605
+                    }
+                ],
+                "new_columns": [
+                    "\uc784\ub300\ubcf4\uc99d\uae08_multiply_\ucd1d\uc138\ub300\uc218",
+                    "\uba74\uc80146_51_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_sum_\ucd1d\uc138\ub300\uc218",
+                    "\uba74\uc80138_46_sum_\ucd1d\uba74\uc801",
+                    "\uba74\uc80185_127_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc801127_139",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc80185_127",
+                    "\uba74\uc80174_85_sum_\ucd1d\uba74\uc801",
+                    "\uba74\uc80159_74_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc80159_74"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    376.1633932354041
+                ],
+                "mean": [
+                    553.2552083333334
+                ],
+                "var": [
+                    141498.89841037325
+                ],
+                "n_samples_seen": 192,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_5",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "\uc784\ub300\ubcf4\uc99d\uae08",
+                        "feature2": "\ucd1d\uc138\ub300\uc218",
+                        "operation": "multiply",
+                        "score": 0.3374817664
+                    },
+                    {
+                        "feature1": "\uba74\uc80146_51",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3670963085
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\ucd1d\uc138\ub300\uc218",
+                        "operation": "sum",
+                        "score": 0.3732028098
+                    },
+                    {
+                        "feature1": "\uba74\uc80138_46",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3741222782
+                    },
+                    {
+                        "feature1": "\uba74\uc80185_127",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc801127_139",
+                        "operation": "diff",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc80185_127",
+                        "operation": "diff",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\uba74\uc80174_85",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\uba74\uc80159_74",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc80159_74",
+                        "operation": "diff",
+                        "score": 0.3742734605
+                    }
+                ],
+                "new_columns": [
+                    "\uc784\ub300\ubcf4\uc99d\uae08_multiply_\ucd1d\uc138\ub300\uc218",
+                    "\uba74\uc80146_51_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_sum_\ucd1d\uc138\ub300\uc218",
+                    "\uba74\uc80138_46_sum_\ucd1d\uba74\uc801",
+                    "\uba74\uc80185_127_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc801127_139",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc80185_127",
+                    "\uba74\uc80174_85_sum_\ucd1d\uba74\uc801",
+                    "\uba74\uc80159_74_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc80159_74"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    375.0136161899295
+                ],
+                "mean": [
+                    571.9896373056995
+                ],
+                "var": [
+                    140635.21232784775
+                ],
+                "n_samples_seen": 193,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_5",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "\uc784\ub300\ubcf4\uc99d\uae08",
+                        "feature2": "\ucd1d\uc138\ub300\uc218",
+                        "operation": "multiply",
+                        "score": 0.3374817664
+                    },
+                    {
+                        "feature1": "\uba74\uc80146_51",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3670963085
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\ucd1d\uc138\ub300\uc218",
+                        "operation": "sum",
+                        "score": 0.3732028098
+                    },
+                    {
+                        "feature1": "\uba74\uc80138_46",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3741222782
+                    },
+                    {
+                        "feature1": "\uba74\uc80185_127",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc801127_139",
+                        "operation": "diff",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc80185_127",
+                        "operation": "diff",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\uba74\uc80174_85",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\uba74\uc80159_74",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc80159_74",
+                        "operation": "diff",
+                        "score": 0.3742734605
+                    }
+                ],
+                "new_columns": [
+                    "\uc784\ub300\ubcf4\uc99d\uae08_multiply_\ucd1d\uc138\ub300\uc218",
+                    "\uba74\uc80146_51_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_sum_\ucd1d\uc138\ub300\uc218",
+                    "\uba74\uc80138_46_sum_\ucd1d\uba74\uc801",
+                    "\uba74\uc80185_127_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc801127_139",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc80185_127",
+                    "\uba74\uc80174_85_sum_\ucd1d\uba74\uc801",
+                    "\uba74\uc80159_74_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc80159_74"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    375.6595083358327
+                ],
+                "mean": [
+                    558.3316062176166
+                ],
+                "var": [
+                    141120.06620311955
+                ],
+                "n_samples_seen": 193,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_5",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "\uc784\ub300\ubcf4\uc99d\uae08",
+                        "feature2": "\ucd1d\uc138\ub300\uc218",
+                        "operation": "multiply",
+                        "score": 0.3374817664
+                    },
+                    {
+                        "feature1": "\uba74\uc80146_51",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3670963085
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\ucd1d\uc138\ub300\uc218",
+                        "operation": "sum",
+                        "score": 0.3732028098
+                    },
+                    {
+                        "feature1": "\uba74\uc80138_46",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3741222782
+                    },
+                    {
+                        "feature1": "\uba74\uc80185_127",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc801127_139",
+                        "operation": "diff",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc80185_127",
+                        "operation": "diff",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\uba74\uc80174_85",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\uba74\uc80159_74",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc80159_74",
+                        "operation": "diff",
+                        "score": 0.3742734605
+                    }
+                ],
+                "new_columns": [
+                    "\uc784\ub300\ubcf4\uc99d\uae08_multiply_\ucd1d\uc138\ub300\uc218",
+                    "\uba74\uc80146_51_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_sum_\ucd1d\uc138\ub300\uc218",
+                    "\uba74\uc80138_46_sum_\ucd1d\uba74\uc801",
+                    "\uba74\uc80185_127_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc801127_139",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc80185_127",
+                    "\uba74\uc80174_85_sum_\ucd1d\uba74\uc801",
+                    "\uba74\uc80159_74_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc80159_74"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    379.4851319815365
+                ],
+                "mean": [
+                    571.0932642487047
+                ],
+                "var": [
+                    144008.96539504416
+                ],
+                "n_samples_seen": 193,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_5",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "\uc784\ub300\ubcf4\uc99d\uae08",
+                        "feature2": "\ucd1d\uc138\ub300\uc218",
+                        "operation": "multiply",
+                        "score": 0.3374817664
+                    },
+                    {
+                        "feature1": "\uba74\uc80146_51",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3670963085
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\ucd1d\uc138\ub300\uc218",
+                        "operation": "sum",
+                        "score": 0.3732028098
+                    },
+                    {
+                        "feature1": "\uba74\uc80138_46",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3741222782
+                    },
+                    {
+                        "feature1": "\uba74\uc80185_127",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc801127_139",
+                        "operation": "diff",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc80185_127",
+                        "operation": "diff",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\uba74\uc80174_85",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\uba74\uc80159_74",
+                        "feature2": "\ucd1d\uba74\uc801",
+                        "operation": "sum",
+                        "score": 0.3742734605
+                    },
+                    {
+                        "feature1": "\ucd1d\uba74\uc801",
+                        "feature2": "\uba74\uc80159_74",
+                        "operation": "diff",
+                        "score": 0.3742734605
+                    }
+                ],
+                "new_columns": [
+                    "\uc784\ub300\ubcf4\uc99d\uae08_multiply_\ucd1d\uc138\ub300\uc218",
+                    "\uba74\uc80146_51_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_sum_\ucd1d\uc138\ub300\uc218",
+                    "\uba74\uc80138_46_sum_\ucd1d\uba74\uc801",
+                    "\uba74\uc80185_127_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc801127_139",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc80185_127",
+                    "\uba74\uc80174_85_sum_\ucd1d\uba74\uc801",
+                    "\uba74\uc80159_74_sum_\ucd1d\uba74\uc801",
+                    "\ucd1d\uba74\uc801_diff_\uba74\uc80159_74"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    382.7783569958537
+                ],
+                "mean": [
+                    572.860103626943
+                ],
+                "var": [
+                    146519.2705844452
+                ],
+                "n_samples_seen": 193,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_5",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.2.7",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "51d41ba2-8498-41aa-8e71-f68d8004634a",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 7,
+                "rsm": 1,
+                "loss_function": "RMSE",
+                "seed": 4,
+                "eval_metric": "RMSE",
+                "explain_level": 2
+            },
+            "name": "learner_fold_0",
+            "best_ntree_limit": 44
+        },
+        {
+            "library_version": "1.2.7",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "6e45341c-48d7-4f7b-84cf-661c8a94bb27",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 7,
+                "rsm": 1,
+                "loss_function": "RMSE",
+                "seed": 4,
+                "eval_metric": "RMSE",
+                "explain_level": 2
+            },
+            "name": "learner_fold_1",
+            "best_ntree_limit": 75
+        },
+        {
+            "library_version": "1.2.7",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "5b084155-64f8-4794-af7f-0826f073f680",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 7,
+                "rsm": 1,
+                "loss_function": "RMSE",
+                "seed": 4,
+                "eval_metric": "RMSE",
+                "explain_level": 2
+            },
+            "name": "learner_fold_2",
+            "best_ntree_limit": 50
+        },
+        {
+            "library_version": "1.2.7",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "f6c2300f-76fe-4dee-8b3a-e6f080e31322",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 7,
+                "rsm": 1,
+                "loss_function": "RMSE",
+                "seed": 4,
+                "eval_metric": "RMSE",
+                "explain_level": 2
+            },
+            "name": "learner_fold_3",
+            "best_ntree_limit": 162
+        },
+        {
+            "library_version": "1.2.7",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "b8bde239-0156-47b2-9ddf-19c401602836",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 7,
+                "rsm": 1,
+                "loss_function": "RMSE",
+                "seed": 4,
+                "eval_metric": "RMSE",
+                "explain_level": 2
+            },
+            "name": "learner_fold_4",
+            "best_ntree_limit": 39
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression",
+            "golden_features": {
+                "results_path": "AutoML_5",
+                "ml_task": "regression",
+                "n_jobs": -1
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "X_path": "AutoML_5\\X.data",
+            "y_path": "AutoML_5\\y.data",
+            "results_path": "AutoML_5"
+        },
+        "learner": {
+            "model_type": "CatBoost",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "learning_rate": 0.1,
+            "depth": 7,
+            "rsm": 1,
+            "loss_function": "RMSE",
+            "seed": 4,
+            "eval_metric": "RMSE",
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 2,
+        "name": "38_CatBoost_GoldenFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_golden_features",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "38_CatBoost_GoldenFeatures\\learner_fold_0.catboost",
+        "38_CatBoost_GoldenFeatures\\learner_fold_1.catboost",
+        "38_CatBoost_GoldenFeatures\\learner_fold_2.catboost",
+        "38_CatBoost_GoldenFeatures\\learner_fold_3.catboost",
+        "38_CatBoost_GoldenFeatures\\learner_fold_4.catboost"
+    ],
+    "predictions_fname": "38_CatBoost_GoldenFeatures\\predictions_out_of_folds.csv",
+    "metric_name": "rmse",
+    "final_loss": "171.8748571725291",
+    "train_time": 18.31403374671936,
+    "is_stacked": false,
+    "joblib_version": "1.4.2",
+    "single_prediction_time": 0.04700183868408203
+}
