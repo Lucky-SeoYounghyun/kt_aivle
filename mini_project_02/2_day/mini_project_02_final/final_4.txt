@@ -1,0 +1,59 @@
+# 파이프라인 만들기
+def data_pipeline(data):
+    apt01 = data.copy()
+    
+    categorical_columns_with_nan = ['건물형태', '난방방식', '승강기설치여부']
+        
+    for col in categorical_columns_with_nan:
+        apt01 = train_and_predict_missing_values(apt01, col)
+
+    apt01['준공연도'] = apt01['준공일자'].astype(str).str[:4].astype(int)
+    apt01['총면적'] = (apt01['전용면적'] + apt01['공용면적']) * apt01['전용면적별세대수']
+
+    apt01.drop(columns = '준공일자', inplace=True)
+
+    data01 = apt01[['단지코드', '총세대수', '지역', '준공연도', '건물형태', '난방방식', '승강기설치여부']]
+
+    data01.drop_duplicates(inplace=True)
+    
+    data01.reset_index(drop=True, inplace=True)
+    
+    data02 = apt01[['단지코드', '총면적', '전용면적별세대수', '전용면적', '공용면적', '임대보증금', '임대료']]
+    
+    df_area = data02.groupby('단지코드')['총면적'].sum().reset_index()
+
+    bins = [16, 26, 38, 46, 51, 59, 74, 85, 127, 140]
+    labels = ['면적16_26', '면적26_38', '면적38_46', '면적46_51', '면적51_59', '면적59_74', '면적74_85', '면적85_127', '면적127_140']
+    data02['전용면적구간'] = pd.cut(data02['전용면적'], bins=bins, labels=labels, right=False)
+    
+    temp = data02.groupby(['단지코드', '전용면적구간'])['전용면적별세대수'].sum().reset_index()
+
+    df_pivot = temp.pivot(index='단지코드', columns='전용면적구간', values='전용면적별세대수')
+    df_pivot.columns.name = None
+    df_pivot.reset_index(inplace=True)
+
+    df_rent = data02.groupby('단지코드')[['임대보증금', '임대료']].mean().reset_index()
+
+    base_data = pd.merge(data01, df_area, on='단지코드', how='left')
+    base_data = pd.merge(base_data, df_pivot, on='단지코드', how='left')
+    base_data = pd.merge(base_data, df_rent, on='단지코드', how='left')
+
+    base_data['난방방식'] = base_data['난방방식'].replace(
+        {
+        '개별가스난방': '개별',
+        '개별유류난방': '개별',
+        '지역난방': '지역',
+        '지역가스난방': '지역',
+        '지역유류난방': '지역',
+        '중앙가스난방': '중앙',
+        '중앙난방': '중앙',
+        '중앙유류난방': '중앙'
+        }
+    )
+    base_data['난방방식']
+
+    base_data['승강기설치여부'] = base_data['승강기설치여부'].replace({'전체동 설치':1, '일부동 설치':0, '미설치':0})
+
+    base_data.drop(columns=['단지코드', '지역'], inplace = True)
+
+    return base_data

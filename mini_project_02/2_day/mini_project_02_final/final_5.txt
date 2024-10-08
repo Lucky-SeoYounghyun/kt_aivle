@@ -1,0 +1,89 @@
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+Cell In[110], line 2
+      1 # 예측하기
+----> 2 predicted = model.predict(data)
+      4 # 확인
+      5 print(predicted)
+
+File ~\anaconda3\Lib\site-packages\sklearn\model_selection\_search.py:597, in BaseSearchCV.predict(self, X)
+    579 """Call predict on the estimator with the best found parameters.
+    580 
+    581 Only available if ``refit=True`` and the underlying estimator supports
+   (...)
+    594     the best found parameters.
+    595 """
+    596 check_is_fitted(self)
+--> 597 return self.best_estimator_.predict(X)
+
+File ~\anaconda3\Lib\site-packages\sklearn\ensemble\_forest.py:1063, in ForestRegressor.predict(self, X)
+   1061 check_is_fitted(self)
+   1062 # Check data
+-> 1063 X = self._validate_X_predict(X)
+   1065 # Assign chunk of trees to jobs
+   1066 n_jobs, _, _ = _partition_estimators(self.n_estimators, self.n_jobs)
+
+File ~\anaconda3\Lib\site-packages\sklearn\ensemble\_forest.py:641, in BaseForest._validate_X_predict(self, X)
+    638 else:
+    639     force_all_finite = True
+--> 641 X = self._validate_data(
+    642     X,
+    643     dtype=DTYPE,
+    644     accept_sparse="csr",
+    645     reset=False,
+    646     force_all_finite=force_all_finite,
+    647 )
+    648 if issparse(X) and (X.indices.dtype != np.intc or X.indptr.dtype != np.intc):
+    649     raise ValueError("No support for np.int64 index based sparse matrices")
+
+File ~\anaconda3\Lib\site-packages\sklearn\base.py:633, in BaseEstimator._validate_data(self, X, y, reset, validate_separately, cast_to_ndarray, **check_params)
+    631         out = X, y
+    632 elif not no_val_X and no_val_y:
+--> 633     out = check_array(X, input_name="X", **check_params)
+    634 elif no_val_X and not no_val_y:
+    635     out = _check_y(y, **check_params)
+
+File ~\anaconda3\Lib\site-packages\sklearn\utils\validation.py:1012, in check_array(array, accept_sparse, accept_large_sparse, dtype, order, copy, force_writeable, force_all_finite, ensure_2d, allow_nd, ensure_min_samples, ensure_min_features, estimator, input_name)
+   1010         array = xp.astype(array, dtype, copy=False)
+   1011     else:
+-> 1012         array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+   1013 except ComplexWarning as complex_warning:
+   1014     raise ValueError(
+   1015         "Complex data not supported\n{}\n".format(array)
+   1016     ) from complex_warning
+
+File ~\anaconda3\Lib\site-packages\sklearn\utils\_array_api.py:745, in _asarray_with_order(array, dtype, order, copy, xp, device)
+    743     array = numpy.array(array, order=order, dtype=dtype)
+    744 else:
+--> 745     array = numpy.asarray(array, order=order, dtype=dtype)
+    747 # At this point array is a NumPy ndarray. We convert it to an array
+    748 # container that is consistent with the input's namespace.
+    749 return xp.asarray(array)
+
+File ~\anaconda3\Lib\site-packages\pandas\core\generic.py:2153, in NDFrame.__array__(self, dtype, copy)
+   2149 def __array__(
+   2150     self, dtype: npt.DTypeLike | None = None, copy: bool_t | None = None
+   2151 ) -> np.ndarray:
+   2152     values = self._values
+-> 2153     arr = np.asarray(values, dtype=dtype)
+   2154     if (
+   2155         astype_is_view(values.dtype, arr.dtype)
+   2156         and using_copy_on_write()
+   2157         and self._mgr.is_single_block
+   2158     ):
+   2159         # Check if both conversions can be done without a copy
+   2160         if astype_is_view(self.dtypes.iloc[0], values.dtype) and astype_is_view(
+   2161             values.dtype, arr.dtype
+   2162         ):
+
+ValueError: could not convert string to float: '복도식'
+
+
+# 예측하기
+predicted = model.predict(data)
+
+# 확인
+print(predicted)
+
+
+
